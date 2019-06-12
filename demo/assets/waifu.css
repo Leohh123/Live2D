@@ -5,6 +5,7 @@
     font-size: 0;
     -webkit-transform: translateY(3px);
     transform: translateY(3px);
+    top: unset!important;
 }
 .waifu:hover {
     -webkit-transform: translateY(0);
@@ -73,7 +74,7 @@
     color: #34495e;
 }
 .waifu #live2d{
-    position: relative;
+    position: absolute;
 }
 
 @-webkit-keyframes show {
